@@ -1,2 +1,2 @@
-# Bank_Sim.py
+# Bank_Sim.cpp
 This C++ program simulates basic banking operations, allowing users to view their balance, deposit money, or withdraw funds. It uses a `do-while` loop combined with a `switch` statement to present a menu, enabling users to select and perform actions. The program employs functions such as `showBalance()` for displaying the current balance with two decimal places using `std::setprecision` and `std::fixed`, `deposit()` for validating and adding funds, and `withdraw()` for ensuring valid withdrawals against the available balance. User input is managed with `std::cin`, while `std::cin.clear()` and `fflush(stdin)` are used for handling and clearing input errors.
